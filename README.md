@@ -1,3 +1,5 @@
+PRVO UPALITI SQL SERVER I UCITATI SAMPLE.SQL
+
 npm i express mysql nodemon
 
 npx nodemon ./index.js
