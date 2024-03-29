@@ -35,6 +35,7 @@ con.connect(function(err){
         })
     })
 });
+
 app.listen(port, () => {
     console.log(`Web aplikacija pokrenuta na portu ${port}`);
 });
