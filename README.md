@@ -1,6 +1,6 @@
-PRVO UPALITI SQL SERVER I UCITATI SAMPLE.SQL
-
 npm i express mysql nodemon
+
+UPALITI MYSQL SERVER I UCITATI SAMPLE.SQL 
 
 npx nodemon ./index.js
 
