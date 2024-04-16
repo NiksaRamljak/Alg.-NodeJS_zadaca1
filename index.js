@@ -35,6 +35,17 @@ con.connect(function(err){
         })
     })
 });
+    app.get('/obrisi/:ID',(req,res)=>{
+        let ID=req.params.ID;
+
+        var sql="DELETE FROM ODJEL WHERE ODJEL_ID="+ID;
+        con.query(sql,(err,result,field)=>{
+            if(err){
+                res.send('Greška!'+err);
+            }
+            res.send('Obrisano!')
+        });
+    });
 
 app.listen(port, () => {
     console.log(`Web aplikacija pokrenuta na portu ${port}`);
